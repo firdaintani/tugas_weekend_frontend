@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <!-- my CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- link font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- script reveal text -->
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+
+  <!-- faveicon -->
+  <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+
+  <!-- script fixed navbar -->
+  <script src="script.js"></script>
+  <title>B&W Artgraphy</title>
+</head>
+
+<body>
+  <!-- Awal navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto" id="item">
+          <a class="nav-item nav-link" href="#" onclick="top_page();">Home</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#work">Work</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <!-- awal jumbotron -->
+  <div class="jumbotron jumbotron-fluid" id="jumbo_tron">
+    <div class="container">
+      <h1 class="display-4"><span id="bw">B&W</span> <span id="artgraphy"> ARTGRAPHY</span></h1>
+      <p class="lead">Provide you with black and white photography</p>
+    </div>
+  </div>
+  <!-- akhir jumbotron -->
+
+  <!-- submenu about -->
+  <div id="about">
+    <div class="batas"></div>
+    <div class="container">
+      <hr class="garis" style="color:black;">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="sub-menu type1">B&W ARTGRAPHY</h2>
+        </div>
+
+        <!-- tab -->
+        <div class="col-lg-6">
+          <div class="tab">
+            <button class="tablinks type1 active " onclick="openReason(event, 'why')">Why</button>
+            <button class="tablinks type1" onclick="openReason(event, 'what')">What</button>
+            <button class="tablinks type1" onclick="openReason(event, 'who')">Who</button>
+          </div>
+
+
+        </div>
+        <!-- akhir tab -->
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="why" class="tabcontent elementToFadeIn ">
+            <h3 class="type type1">Why are we called B&W Artgraphy?</h3>
+            <div class="mx-auto desc-why">
+              <p class="desc-type type1">B&W stands for black and white. Black and white photos have a classy and
+                exquisite feel
+                about them. They have an aesthetic, artistic look that is hard to produce in color. They definitely
+                look timeless!</p>
+              <p class="desc-type type1"> Artgraphy is a combination of art and photography. Our goal is to get images
+                with high
+                artistic meanings. </p>
+            </div>
+          </div>
+
+
+
+          <div id="what" class="tabcontent elementToFadeIn">
+            <div class="row">
+              <div class="col-lg-6">
+                <h3 class="type">What is B&W Artgraphy?</h3>
+                <p class="desc-type">B&W Artgraphy is photography company that aims to provide a one-stop service to
+                  meet clients need
+                  for various type of publication material. B&W Artgraphy customizes the artwork to meet the client
+                  needs. </p>
+
+              </div>
+              <div class="col-lg-6">
+                <h3 class="type">What do we do?</h3>
+                <p class="desc-type">Clients hire us to capture images according to their needs. Whether it's for
+                  commercial or personal
+                  purposes.</p>
+
+              </div>
+
+            </div>
+          </div>
+          <div id="who" class="tabcontent elementToFadeIn">
+            <h3 class="type">Who we work with?</h3>
+            <p class="desc-type">We work with <span style="font-weight:bold">everyone</span> who need our team!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir submenu about -->
+
+  <!-- submenu work -->
+  <div id="work">
+    <div class="batas"></div>
+    <div class="container">
+      <hr class="garis" style="color:black;">
+      <!-- <h2 class="sub-menu">Work</h2> -->
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-6">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/landscape_1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/landscape_2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/landscape_3.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h4 class="type type1">Landscape Photography</h4>
+          <p class="desc-type desc-type1">Capture the nature, man-made features or the disturbances found in physical
+            areas.
+            Include tree
+            photography, nature, deserts, and beaches. Focus on the outdors during specific season.</p>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-6">
+          <h4 class="text-right type type1">Street Photography</h4>
+          <p class="text-right desc-type desc-type1">Conducted for art or enquiry that features unmediated chance
+            encounters and random incidents within public places.</p>
+        </div>
+        <div class="col-6">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/street_1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/street_2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/street_3.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center ">
+        <div class="col-6">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/potrait_1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/potrait_2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/potrait_3.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h4 class="type type1">Potrait Photography</h4>
+          <p class="desc-type desc-type1">Portrait photography is more than just capturing a picture of somebody; it's
+            an artistic representation of a person's attitude.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- akhir submenu work -->
+
+  <!-- submenu contact -->
+  <div id="contact">
+    <div class="batas"></div>
+    <!--<div >
+      <hr class="garis" />
+      <h2 class="sub-menu">Contact</h2> -->
+    <div style="background-color:black;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 contact-info" style="margin-top:50px;">
+
+            <div>
+              <div class="row">
+
+                <h2 class="connect-text type1">Get Connected With Us!</h2>
+              </div>
+
+              <div class="row" style="margin-bottom:30px;margin-top: 20px;">
+                <p class="text-if type1">If you have a question, concern or want to connect, please fill the form.</p>
+              </div>
+              <div class="row list-socmed text-if">
+                <a class="link-soc type1" href="http://www.instagram.com/firda_intani" target="_blank"><img src="icon/Instagram.png"
+                    class="icon-contact" alt="">&nbsp;&nbsp;firda_intani</a></div>
+              <div class="row list-socmed text-if">
+                <a class="link-soc type1" href="http:/www.twitter.com/b_w_artgraphy" target="_blank"><img src="icon/Twitter.png"
+                    class="icon-contact" alt="">&nbsp;&nbsp;b_w_artgraphy</a></div>
+              <div class="row list-socmed text-if">
+                <a class="link-soc type1" href="https://www.google.com/maps/place/Purwadhika+Startup+%26+Coding+School+BSD/@-6.3023977,106.6500593,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69fb9545968651:0xa3d17293fd1fcd!8m2!3d-6.302403!4d106.652248"
+                  target="_blank"><img class="icon-contact" src="icon/Map-Marker-icon.png" alt="">&nbsp;&nbsp;Jl. BSD
+                  Green Office Park, GOP 9 - G Floor BSD <br><span style="margin-left:35px;"> Sampora, Cisauk,
+                    Tangerang, Banten 15345</span></a>
+              </div>
+              <div class="row">
+                <p class="link-soc type1"><img src="icon/Phone-icon.png" class="icon-contact" alt="">&nbsp;&nbsp;(021)2423422</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8" style="margin-top:80px;margin-bottom: 50px;">
+            <div class="row form-input">
+              <div class="col-6">
+                <form>
+                  <div>
+                    <label class="type1 desc-type">Name*</label><br>
+                    <input type="text" id="name" name="name">
+                  </div>
+                  <div>
+                    <label class="type1 desc-type">Company</label><br>
+                    <input type="text" id="company_name">
+                  </div>
+                </form>
+              </div>
+              <div class="col-6">
+                <form>
+                  <div>
+                    <label class="type1 desc-type">Email*</label><br>
+                    <input type="text" id="email">
+                  </div>
+                  <div>
+                    <label class="type1  desc-type">Phone*</label><br>
+                    <input type="number" id="phone_number">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div>
+                  <label for="exampleFormControlTextarea1" class="type1 desc-type">Message*</label><br>
+                  <textarea rows="7" id="message"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="btn tombol" style="float:right;z-index: 9999999;" data-toggle="modal"
+              data-target="#modalMessage" onclick="send_message()">Send</button>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+  </div>
+  <!-- akhir submen contact -->
+
+  <!-- modal when send button clicked -->
+  <!-- Modal -->
+  <div class="modal fade" id="modalMessage" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="p_modal"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn tombol" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal -->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <!-- script cek -->
+  <script>
+   
+    window.onresize = resize;
+
+    function resize() {
+
+
+      if (document.body.scrollTop == 0 && document.documentElement.scrollTop == 0) {
+        if (window.innerWidth < 992) {
+          document.getElementById('navbar').style.position = 'relative';
+          document.getElementById('navbar').style.backgroundColor = 'black';
+        } else {
+          document.getElementById('navbar').style.backgroundColor = 'transparent';
+        }
+      } else if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 210) {
+        document.getElementById('navbar').style.backgroundColor = 'black';
+        document.getElementById('navbar').className += ' solid';
+        document.getElementById('navbar').style.position = 'fixed';
+      }
+    }
+
+  </script>
+
+
+
+  <!-- script reveal -->
+  <script>
+    ScrollReveal().reveal('.display-4', {
+      duration: 2000
+    });
+    ScrollReveal().reveal('.lead', {
+      delay: 1000
+    });
+
+    config = {
+      origin: 'top',
+      duration: 2000,
+      easing: 'ease',
+      distance: '20px',
+
+    };
+
+    config_desc = {
+      origin: 'top',
+      duration: 2000,
+      easing: 'ease',
+      distance: '20px',
+      delay: 1000,
+
+    }
+    ScrollReveal().reveal('.type1', config);
+    ScrollReveal().reveal('.desc-type1', config_desc);
+
+
+    //script ketika tombol send message ditekan
+    var send_message = () => {
+
+      var name_user = document.getElementById('name').value
+      var company_user = document.getElementById('company_name').value
+      var email_user = document.getElementById('email').value
+      var phone_user = document.getElementById('phone_number').value
+      var message_user = document.getElementById('message').value
+
+
+      if (name_user == '' || email_user == '' || phone_user == '' || message_user == '') {
+        document.getElementById('ModalLabel').innerHTML = "Sorry";
+        document.getElementById('p_modal').innerHTML = "You need to fill form that has asterisk (*) sign";
+      } else {
+        document.getElementById('ModalLabel').innerHTML = "Thank You!";
+        document.getElementById('p_modal').innerHTML =
+          `Thank you ${name_user}! We will respond your message as soon as possible.`
+
+      }
+    }
+
+
+    function top_page() {
+      // alert('masuk')
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+      document.getElementById('jumbo_tron').style.marginTop='-65px';
+    }
+  </script>
+
+  <!-- script untuk tab -->
+  <script>
+    document.getElementsByClassName('tabcontent')[0].style.display = "block";
+
+
+    function openReason(evt, reason) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+      }
+      document.getElementById(reason).style.display = "block";
+      // alert(evt.currentTarget.className)
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+  <!-- close navbar ketika di lkik -->
+  <script>
+    $('.navbar-collapse a').click(function () {
+      $(".navbar-collapse").collapse('hide');
+    });
+  </script>
+</body>
+
+</html>

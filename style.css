@@ -1,0 +1,421 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    /* height: 100%; */
+    overflow: auto;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(img/jumbo.jpg);
+    height: 550px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    z-index: -999;
+
+}
+/* .jumbotron .container{
+    position: relative;
+    z-index: -999;
+} */
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+
+.display-4 {
+    position: relative;
+    z-index: 1;
+    font-size: 50px;
+    color: black;
+    margin-top: 160px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-weight: 600;
+
+}
+
+.lead {
+    /* text-align: center; */
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 17px;
+    margin-top: -7px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+
+}
+
+#bw {
+    color: white;
+}
+
+
+
+
+/* CONTAINER */
+.container {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+/* NAVBAR */
+.navbar {
+    position: relative;
+    z-index: 99;
+    font-size: 15px;
+    width: 100%;
+    opacity: 0.98;
+
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.solid {
+
+    background-color: black;
+    opacity: 0.9;
+}
+
+.nav-item {
+    text-align: center;
+    color: white !important;
+    margin-right: 20px;
+    /* margin-top: -10px; */
+}
+
+.navbar-brand {
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar-brand::after {
+    content: 'B&W ARTGRAPHY'
+}
+
+.nav-link:after {
+
+    display: block;
+    content: '';
+    border-bottom: solid 3px white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+
+}
+
+
+
+
+/* Tambahan */
+.garis {
+
+    border-width: 5px;
+    margin-bottom: 40px;
+}
+
+.tombol {
+
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+.tombol:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    font-weight: 200;
+}
+
+.batas {
+    height: 100px;
+}
+
+/* sub menu */
+.sub-menu {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.jarak {
+    margin-bottom: 75px;
+}
+
+
+.desc-company {
+
+    text-align: center;
+    width: 400px;
+    /* padding-bottom: 20px; */
+}
+
+/* tab di menu about*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    /* transition: 0.3s; */
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color: black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: black;
+
+
+}
+
+.tablinks {
+    color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* fading */
+.elementToFadeIn {
+    opacity: 1;
+    animation: fade 1s linear;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+.desc-why {
+    width: 80%;
+}
+
+/*  */
+
+/* submenu about */
+#about {
+    margin-top: 100px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* submenu work */
+.type {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.desc-type {
+    font-size: 12px;
+}
+
+
+
+/* contact */
+
+
+#contact {
+    color: white;
+}
+
+.container-contact {
+    margin-top: 30px;
+}
+
+.link-soc {
+    text-decoration: none;
+    color: white;
+}
+
+.link-soc:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.list-socmed {
+    padding: 2px;
+}
+
+
+.icon-contact {
+    width: 25px;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: 0;
+    background: black;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+label {
+    margin-top: 30px;
+}
+
+.text-if {
+    font-size: 13px;
+}
+.connect-text {
+    font-size: 25px;
+}
+
+
+
+/* modal */
+.modal-content {
+    /* background-color: black; */
+    border-color: black;
+    color: black;
+}
+
+
+
+@media (max-width: 991px){
+.navbar{
+    background-color: black;
+
+}
+.contact-info{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+}
+
+/* DEKSTOP */
+@media (min-width: 992px) {
+    .navbar {
+        font-size: 18px;
+
+        background-color: transparent;
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+        /* -webkit-box-shadow: 0px 2px 5px 0px rgba(194,194,194,1);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(194,194,194,1);
+        box-shadow: 0px 2px 5px 0px rgba(194,194,194,1); */
+    }
+
+
+
+    .nav-item {
+        text-transform: uppercase;
+    }
+
+    .navbar-brand::after {
+        content: '';
+    }
+
+    .jumbotron {
+        margin-top: -65px;
+        height: 750px;
+    }
+
+
+    .display-4 {
+        margin-top: 230px;
+        font-size: 80px;
+    }
+
+    .lead {
+        color: black;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+
+    }
+
+    .desc-company {
+        width: 700px;
+
+    }
+
+
+    /* submenu work */
+    .type {
+        
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .desc-type {
+        font-size: 17px;
+    }
+
+    /* contact */
+
+    .connect-text {
+        font-size: 60px;
+    }
+
+
+    .sub-menu {
+        text-align: left;
+    }
+
+    .tab {
+        justify-content: flex-end;
+    }
+
+    .desc-why {
+        width: 50%;
+    }
+
+    .text-if {
+        font-size: 15px;
+    }
+}
